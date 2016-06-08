@@ -1,4 +1,4 @@
-## dict
+## fanyi
 [![PyPI](https://img.shields.io/pypi/status/Django.svg)](https://github.com/wufeifei/dict)
 [![Wercker](https://img.shields.io/wercker/ci/wercker/docs.svg)](https://github.com/wufeifei/dict)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wufeifei/dict)
@@ -9,9 +9,9 @@ linux命令行下翻译工具
 ## Install
 
 ```
-wget https://raw.githubusercontent.com/wufeifei/dict/master/dict.py
-sudo mv ./dict.py /usr/local/bin/dict
-sudo chmod +x /usr/local/bin/dict
+wget https://raw.githubusercontent.com/dantangfan/fanyi/master/fanyi.py
+sudo mv ./fanyi.py /usr/local/bin/fanyi
+sudo chmod +x /usr/local/bin/fanyi
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ sudo chmod +x /usr/local/bin/dict
 English To Chinese
 
 ```
-$ dict test
+$ fanyi test
 ###################################
 #  test 测试 (U: tɛst E: test )
 #  n. 试验；检验
@@ -31,7 +31,7 @@ $ dict test
 
 Chinese To English
 ```
-$ dict 测试
+$ fanyi 测试
 ###################################
 #  测试 test (Pinyin: cè shì )
 #  [试验] test
